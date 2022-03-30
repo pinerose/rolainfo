@@ -11,20 +11,21 @@ body{
     flex-flow: row wrap;
     margin: auto;
     justify-content: center;
+    align-content:flex-start;
 }
 
     h1{
         width: 100%;
         height: 10%;
-        margin: 1% 0;
+        margin: 1% auto;
         font-size: 3rem;
         line-height: 4rem;
     }
 
     nav{
         width: 100%;
-        height: 8%;
-        margin: 1% 0;
+        height: 10%;
+        padding: 1% 0%;
         display: flex;
         flex-flow: row wrap;
     }
@@ -40,7 +41,7 @@ body{
 
     main{
         width: 100%;
-        height: 78%;
+        height: 48%;
     }
 
     /*.hide{
